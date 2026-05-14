@@ -1,0 +1,62 @@
+# =========================
+# Python 기본
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+.venv/
+venv/
+env/
+ENV/
+
+# 패키징/빌드
+build/
+dist/
+*.egg-info/
+
+# 테스트/캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# AirTest 실행 결과물
+# =========================
+log/
+logs/
+report/
+reports/
+airtest_report/
+*.log
+log.html
+report.html
+
+# AirTest 실행 중 생성되는 스크린샷/녹화/임시 결과
+*_log/
+*_report/
+screen/
+screenshots/
+record/
+records/
+*.mp4
+*.avi
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# 환경변수 / 비밀정보
+# =========================
+.env
+.env.*
+*.key
+*.pem
