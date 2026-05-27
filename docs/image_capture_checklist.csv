@@ -1,0 +1,96 @@
+﻿test_data_label,suggested_path,need_capture,memo
+생성된 월드 1개 이상 필요,,N,키/좌표/상태값은 config.py에서 관리
+B 키,,N,키/좌표/상태값은 config.py에서 관리
+건축 모드 창 이미지,common/build_mode_window.png,Y,AirTest Template 이미지로 캡처 필요
+ESC 키,,N,키/좌표/상태값은 config.py에서 관리
+일반 화면 HUD 이미지,common/default_hud.png,Y,AirTest Template 이미지로 캡처 필요
+설치 가능 건축물 이미지,items/buildable_item.png,Y,AirTest Template 이미지로 캡처 필요
+테스트 월드,,N,키/좌표/상태값은 config.py에서 관리
+생산 탭 이미지,tabs/production_tab.png,Y,AirTest Template 이미지로 캡처 필요
+생산 탭 대표 건축물 이미지,tabs/production_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+팰 탭 이미지,tabs/pal_tab.png,Y,AirTest Template 이미지로 캡처 필요
+팰 탭 대표 건축물 이미지,tabs/pal_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+수납 탭 이미지,tabs/storage_tab.png,Y,AirTest Template 이미지로 캡처 필요
+수납 탭 대표 건축물 이미지,tabs/storage_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+식료품 탭 이미지,tabs/food_tab.png,Y,AirTest Template 이미지로 캡처 필요
+식료품 탭 대표 건축물 이미지,tabs/food_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+인프라 탭 이미지,tabs/infra_tab.png,Y,AirTest Template 이미지로 캡처 필요
+인프라 탭 대표 건축물 이미지,tabs/infra_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+조명 탭 이미지,tabs/lighting_tab.png,Y,AirTest Template 이미지로 캡처 필요
+조명 탭 대표 건축물 이미지,tabs/lighting_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+건축 탭 이미지,tabs/architecture_tab.png,Y,AirTest Template 이미지로 캡처 필요
+건축 탭 대표 구조물 이미지,items/건축_탭_대표_구조물_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+방어 탭 이미지,tabs/defense_tab.png,Y,AirTest Template 이미지로 캡처 필요
+방어 탭 대표 건축물 이미지,tabs/defense_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+가구 탭 이미지,tabs/furniture_tab.png,Y,AirTest Template 이미지로 캡처 필요
+가구 탭 대표 건축물 이미지,tabs/furniture_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+기타 탭 이미지,tabs/misc_tab.png,Y,AirTest Template 이미지로 캡처 필요
+기타 탭 대표 건축물 이미지,tabs/misc_representative_item.png,Y,AirTest Template 이미지로 캡처 필요
+원시적인 작업대_IMAGE,items/원시적인_작업대_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+건축 프리뷰 UI 이미지,preview/build_preview_ui.png,Y,AirTest Template 이미지로 캡처 필요
+프리뷰 조작 안내 이미지,preview/build_preview_control.png,Y,AirTest Template 이미지로 캡처 필요
+건축 입력,,N,키/좌표/상태값은 config.py에서 관리
+F 키,,N,키/좌표/상태값은 config.py에서 관리
+회전 입력,,N,키/좌표/상태값은 config.py에서 관리
+왼쪽 Ctrl 키,,N,키/좌표/상태값은 config.py에서 관리
+건축물 선택 목록 복귀 입력,,N,키/좌표/상태값은 config.py에서 관리
+Tab 키,,N,키/좌표/상태값은 config.py에서 관리
+수리대_IMAGE,items/수리대_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+팰 상자_IMAGE,items/팰_상자_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+설치 불가 건축물 이미지,items/not_buildable_item.png,Y,AirTest Template 이미지로 캡처 필요
+나무 벽걸이 선반_IMAGE,items/나무_벽걸이_선반_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+Alt 키,,N,키/좌표/상태값은 config.py에서 관리
+강철 벽걸이 선반_IMAGE,items/강철_벽걸이_선반_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+벽 설치 fixture 위치,,N,키/좌표/상태값은 config.py에서 관리
+나무벽걸이선반벽면설치가능_IMAGE,items/나무벽걸이선반벽면설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+중앙 클릭 또는 기준 좌표,items/중앙_클릭_또는_기준_좌표.png,Y,AirTest Template 이미지로 캡처 필요
+강철벽걸이선반벽면설치가능_IMAGE,items/강철벽걸이선반벽면설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+모닥불_IMAGE,items/모닥불_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+하급 침대_IMAGE,items/하급_침대_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+벽걸이 횃불_IMAGE,items/벽걸이_횃불_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+벽걸이횃불벽면설치가능_IMAGE,items/벽걸이횃불벽면설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 피라미드 지붕_IMAGE,items/나무_피라미드_지붕_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+4 키,,N,키/좌표/상태값은 config.py에서 관리
+나무 모서리 지붕_IMAGE,items/나무_모서리_지붕_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 경사 지붕_IMAGE,items/나무_경사_지붕_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 삼각 벽_IMAGE,items/나무_삼각_벽_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 토대_IMAGE,items/나무_토대_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무토대_IMAGE,items/나무토대_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 지붕_IMAGE,items/나무_지붕_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 계단_IMAGE,items/나무_계단_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 벽_IMAGE,items/나무_벽_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 문_IMAGE,items/나무_문_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+사다리_IMAGE,items/사다리_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+토대설치후벽설치가능_IMAGE,items/토대설치후벽설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+토대 설치 fixture 위치,,N,키/좌표/상태값은 config.py에서 관리
+토대설치후지붕설치가능_IMAGE,items/토대설치후지붕설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+토대설치후계단설치가능_IMAGE,items/토대설치후계단설치가능_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+건축 탭 구조물 목록,items/건축_탭_구조물_목록.png,Y,AirTest Template 이미지로 캡처 필요
+화면 캡처 증거,items/화면_캡처_증거.png,Y,AirTest Template 이미지로 캡처 필요
+경종_IMAGE,items/경종_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 벽걸이 장식 선반_IMAGE,items/나무_벽걸이_장식_선반_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+가구 탭 대표 구조물 이미지,items/가구_탭_대표_구조물_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+앤티크 빨간색 카펫_IMAGE,items/앤티크_빨간색_카펫_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+사각 탁자_IMAGE,items/사각_탁자_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+나무 의자_IMAGE,items/나무_의자_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+관엽식물_IMAGE,items/관엽식물_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+벽 없는 테스트 위치,,N,키/좌표/상태값은 config.py에서 관리
+나무 벽걸이 장식 선반 이미지,items/나무_벽걸이_장식_선반_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+간판 이미지,items/간판_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+설치 가능 기준 위치,,N,키/좌표/상태값은 config.py에서 관리
+시공 완료까지 대기,,N,키/좌표/상태값은 config.py에서 관리
+설치 완료 건축물 이미지,preview/completed_building.png,Y,AirTest Template 이미지로 캡처 필요
+대상 탭 이미지,items/대상_탭_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+프리뷰후ESC닫힘_IMAGE,items/프리뷰후ESC닫힘_IMAGE.png,Y,AirTest Template 이미지로 캡처 필요
+대상 탭 대표 건축물 이미지,items/대상_탭_대표_건축물_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+자원 충분 테스트 세이브,,N,키/좌표/상태값은 config.py에서 관리
+대표 건축물 이미지,items/대표_건축물_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+설치 확정 입력,,N,키/좌표/상태값은 config.py에서 관리
+충돌 검증 fixture 위치,,N,키/좌표/상태값은 config.py에서 관리
+충돌 대상 좌표,items/충돌_대상_좌표.png,Y,AirTest Template 이미지로 캡처 필요
+C 키,,N,키/좌표/상태값은 config.py에서 관리
+해체 모드 버튼 이미지,items/해체_모드_버튼_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+해체 모드 이미지,items/해체_모드_이미지.png,Y,AirTest Template 이미지로 캡처 필요
+해체 대상 fixture,items/해체_대상_fixture.png,Y,AirTest Template 이미지로 캡처 필요
+해체 입력,,N,키/좌표/상태값은 config.py에서 관리
+해체 모드 키 안내 이미지,,N,키/좌표/상태값은 config.py에서 관리

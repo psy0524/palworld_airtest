@@ -1,0 +1,230 @@
+﻿case_id,case_name,test_area,module,priority,automation_status,step_count
+PW-BLD-001,건축모드 창 열기,Building/Mode,BuildMode,High,Candidate,3
+PW-BLD-002,건축모드 창 닫기,Building/Mode,BuildMode,High,Candidate,3
+PW-BLD-003,프리뷰취소후재진입,Building/Mode,BuildMode,High,Candidate,4
+PW-BLD-004,건축모드중복진입,Building/Mode,BuildMode,Medium,Candidate,3
+PW-BLD-005,생산탭클릭,Building/Mode,Production,High,Candidate,3
+PW-BLD-006,팰탭클릭,Building/Tab,Pal,High,Candidate,3
+PW-BLD-007,수납탭클릭,Building/Tab,Storage,High,Candidate,3
+PW-BLD-008,식료품탭클릭,Building/Tab,Food,High,Candidate,3
+PW-BLD-009,인프라탭클릭,Building/Tab,Infrastructure,High,Candidate,3
+PW-BLD-010,조명탭클릭,Building/Tab,Lighting,High,Candidate,3
+PW-BLD-011,건축탭클릭,Building/Tab,Architecture,High,Candidate,3
+PW-BLD-012,방어탭클릭,Building/Tab,Defense,High,Candidate,3
+PW-BLD-013,가구탭클릭,Building/Tab,Furniture,High,Candidate,3
+PW-BLD-014,기타탭클릭,Building/Tab,Misc,High,Candidate,3
+PW-BLD-015,원시적인 작업대 프리뷰 확인,Building/Production,Preview,High,Candidate,4
+PW-BLD-016,원시적인 작업대 건축 입력 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-017,원시적인 작업대 회전 입력 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-018,원시적인 작업대 LCtrl 스냅 정렬 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-019,원시적인 작업대 건축물 선택으로 돌아가기 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-020,원시적인 작업대 ESC 건축 중단 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-021,원시적인 작업대 Tab 건축 중단 확인,Building/Production,PreviewControl,High,Candidate,5
+PW-BLD-022,수리대 프리뷰,Building/Production,Preview,High,Candidate,4
+PW-BLD-023,수리대 건축 입력 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-024,수리대 회전 입력 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-025,수리대 LCtrl 스냅 정렬 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-026,수리대 건축물 선택으로 돌아가기 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-027,수리대 ESC 건축 중단 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-028,수리대 Tab 건축 중단 확인,Building/Production,PreviewControl,High,Manual,5
+PW-BLD-029,팰 상자 설치가능 1개 프리뷰,Building/Production,Preview,High,Candidate,4
+PW-BLD-030,팰 상자 설치가능 1개 건축 입력 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-031,팰 상자 설치가능 1개 회전 입력 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-032,팰 상자 LCtrl 스냅 정렬 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-033,팰 상자 건축물 선택으로 돌아가기 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-034,팰 상자 ESC 건축 중단 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-035,팰 상자 Tab 건축 중단 확인,Building/Pal,PreviewControl,High,Manual,5
+PW-BLD-036,팰 상자 한도 제한 건축물 차단,Building/Pal,Limit,Medium,Candidate,5
+PW-BLD-037,팰 상자 상태분류,Building/Pal,Preview,Medium,Candidate,4
+PW-BLD-038,나무 벽걸이 선반 프리뷰,Building/Pal,Preview,Medium,Candidate,4
+PW-BLD-039,나무 벽걸이 선반 건축 입력 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-040,나무 벽걸이 선반 회전 입력 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-041,나무 벽걸이 선반 Alt 스냅 변경 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-042,나무 벽걸이 선반 건축물 선택으로 돌아가기 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-043,나무 벽걸이 선반 ESC 건축 중단 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-044,나무 벽걸이 선반 Tab 건축 중단 확인,Building/Storage,PreviewControl,High,Candidate,5
+PW-BLD-045,강철 벽걸이 선반 프리뷰,Building/Storage,Preview,Medium,Candidate,4
+PW-BLD-046,강철 벽걸이 선반 건축 입력 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-047,강철 벽걸이 선반 회전 입력 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-048,강철 벽걸이 선반 Alt 스냅 변경 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-049,강철 벽걸이 선반 건축물 선택으로 돌아가기 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-050,강철 벽걸이 선반 ESC 건축 중단 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-051,강철 벽걸이 선반 Tab 건축 중단 확인,Building/Storage,PreviewControl,High,Manual,5
+PW-BLD-052,나무벽걸이선반벽없음차단,Building/Storage,WallRequired,High,Candidate,5
+PW-BLD-053,강철벽걸이선반벽없음차단,Building/Storage,WallRequired,High,Candidate,5
+PW-BLD-054,나무벽걸이선반벽면설치가능,Building/Storage,WallRequired,Medium,Candidate,5
+PW-BLD-055,강철벽걸이선반벽면설치가능,Building/Storage,WallRequired,Medium,Candidate,5
+PW-BLD-056,모닥불 프리뷰,Building/Storage,Preview,Medium,Candidate,4
+PW-BLD-057,모닥불 건축 입력 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-058,모닥불 회전 입력 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-059,모닥불 LCtrl 스냅 정렬 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-060,모닥불 건축물 선택으로 돌아가기 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-061,모닥불 ESC 건축 중단 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-062,모닥불 Tab 건축 중단 확인,Building/Food,PreviewControl,High,Manual,5
+PW-BLD-063,하급 침대 프리뷰,Building/Food,Preview,Medium,Candidate,4
+PW-BLD-064,하급 침대 건축 입력 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-065,하급 침대 회전 입력 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-066,하급 침대 LCtrl 스냅 정렬 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-067,하급 침대 건축물 선택으로 돌아가기 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-068,하급 침대 ESC 건축 중단 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-069,하급 침대 Tab 건축 중단 확인,Building/Infrastructure,PreviewControl,High,Manual,5
+PW-BLD-070,벽걸이 횃불 프리뷰,Building/Infrastructure,Preview,Medium,Candidate,4
+PW-BLD-071,벽걸이 횃불 건축 입력 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-072,벽걸이 횃불 회전 입력 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-073,벽걸이 횃불 Alt 스냅 변경 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-074,벽걸이 횃불 건축물 선택으로 돌아가기 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-075,벽걸이 횃불 ESC 건축 중단 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-076,벽걸이 횃불 Tab 건축 중단 확인,Building/Lighting,PreviewControl,High,Manual,5
+PW-BLD-077,벽걸이횃불벽없음차단,Building/Lighting,WallTorch,High,Candidate,5
+PW-BLD-078,벽걸이횃불벽면설치가능,Building/Lighting,WallTorch,Medium,Candidate,5
+PW-BLD-079,나무 피라미드 지붕 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-080,나무 피라미드 지붕 건축 입력 확인,Building/Architecture,Architecture,High,Candidate,5
+PW-BLD-081,나무 피라미드 지붕 회전 입력 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-082,나무 피라미드 지붕 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-083,나무 피라미드 지붕 4번 교체 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-084,나무 피라미드 지붕 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-085,나무 피라미드 지붕 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-086,나무 피라미드 지붕 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-087,나무 모서리 지붕 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-088,나무 모서리 지붕 건축 입력 확인,Building/Architecture,Architecture,High,Manual,5
+PW-BLD-089,나무 모서리 지붕 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-090,나무 모서리 지붕 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-091,나무 모서리 지붕 4번 교체 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-092,나무 모서리 지붕 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-093,나무 모서리 지붕 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-094,나무 모서리 지붕 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-095,나무 경사 지붕 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-096,나무 경사 지붕 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-097,나무 경사 지붕 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-098,나무 경사 지붕 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-099,나무 경사 지붕 4번 교체 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-100,나무 경사 지붕 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-101,나무 경사 지붕 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-102,나무 경사 지붕 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-103,나무 삼각 벽 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-104,나무 삼각 벽 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-105,나무 삼각 벽 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-106,나무 삼각 벽 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-107,나무 삼각 벽 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-108,나무 삼각 벽 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-109,나무 삼각 벽 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-110,나무 토대 건축 입력 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-111,나무 토대 회전 입력 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-112,나무 토대 LCtrl 스냅 정렬 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-113,나무 토대 4번 교체 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-114,나무 토대 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-115,나무 토대 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-116,나무 토대 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-117,나무토대프리뷰,Building/Architecture,Foundation,High,Candidate,4
+PW-BLD-118,나무 지붕 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-119,나무 지붕 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-120,나무 지붕 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-121,나무 지붕 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-122,나무 지붕 4번 교체 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-123,나무 지붕 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-124,나무 지붕 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-125,나무 지붕 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-126,나무 계단 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-127,나무 계단 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-128,나무 계단 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-129,나무 계단 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-130,나무 계단 4번 교체 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-131,나무 계단 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-132,나무 계단 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-133,나무 계단 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-134,나무 벽 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-135,나무 벽 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-136,나무 벽 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-137,나무 벽 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-138,나무 벽 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-139,나무 벽 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-140,나무 벽 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-141,나무 문 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-142,나무 문 건축 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-143,나무 문 회전 입력 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-144,나무 문 Alt 스냅 변경 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-145,나무 문 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-146,나무 문 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-147,나무 문 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Manual,5
+PW-BLD-148,사다리 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-149,사다리 건축 입력 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-150,사다리 회전 입력 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-151,사다리 LCtrl 스냅 정렬 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-152,사다리 건축물 선택으로 돌아가기 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-153,사다리 ESC 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-154,사다리 Tab 건축 중단 확인,Building/Architecture,PreviewControl,High,Candidate,5
+PW-BLD-155,토대없는벽설치차단,Building/Architecture,FoundationRequired,High,Candidate,5
+PW-BLD-156,토대없는지붕설치차단,Building/Architecture,FoundationRequired,Medium,Candidate,5
+PW-BLD-157,토대없는계단설치차단,Building/Architecture,FoundationRequired,Medium,Candidate,5
+PW-BLD-158,토대설치후벽설치가능,Building/Architecture,FoundationRequired,High,Candidate,5
+PW-BLD-159,토대설치후지붕설치가능,Building/Architecture,FoundationRequired,Medium,Candidate,5
+PW-BLD-160,토대설치후계단설치가능,Building/Architecture,FoundationRequired,Medium,Candidate,5
+PW-BLD-161,토대필요건축물분류,Building/Architecture,Regression,High,Candidate,4
+PW-BLD-162,경종 프리뷰,Building/Architecture,Preview,Medium,Candidate,4
+PW-BLD-163,경종 건축 입력 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-164,경종 회전 입력 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-165,경종 LCtrl 스냅 정렬 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-166,경종 건축물 선택으로 돌아가기 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-167,경종 ESC 건축 중단 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-168,경종 Tab 건축 중단 확인,Building/Defense,PreviewControl,High,Manual,5
+PW-BLD-169,나무 벽걸이 장식 선반 프리뷰,Building/Defense,Preview,Medium,Candidate,4
+PW-BLD-170,나무 벽걸이 장식 선반 건축 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-171,나무 벽걸이 장식 선반 회전 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-172,나무 벽걸이 장식 선반 Alt 스냅 변경 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-173,나무 벽걸이 장식 선반 건축물 선택으로 돌아가기 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-174,나무 벽걸이 장식 선반 ESC 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-175,나무 벽걸이 장식 선반 Tab 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-176,앤티크 빨간색 카펫 프리뷰,Building/Furniture,Preview,Medium,Candidate,4
+PW-BLD-177,앤티크 빨간색 카펫 건축 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-178,앤티크 빨간색 카펫 회전 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-179,앤티크 빨간색 카펫 LCtrl 스냅 정렬 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-180,앤티크 빨간색 카펫 건축물 선택으로 돌아가기 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-181,앤티크 빨간색 카펫 ESC 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-182,앤티크 빨간색 카펫 Tab 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-183,사각 탁자 프리뷰,Building/Furniture,Preview,Medium,Candidate,4
+PW-BLD-184,사각 탁자 건축 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-185,사각 탁자 회전 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-186,사각 탁자 LCtrl 스냅 정렬 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-187,사각 탁자 건축물 선택으로 돌아가기 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-188,사각 탁자 ESC 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-189,사각 탁자 Tab 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-190,나무 의자 프리뷰,Building/Furniture,Preview,Medium,Candidate,4
+PW-BLD-191,나무 의자 건축 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-192,나무 의자 회전 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-193,나무 의자 LCtrl 스냅 정렬 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-194,나무 의자 건축물 선택으로 돌아가기 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-195,나무 의자 ESC 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-196,나무 의자 Tab 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-197,관엽식물 프리뷰,Building/Furniture,Preview,Medium,Candidate,4
+PW-BLD-198,관엽식물 건축 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-199,관엽식물 회전 입력 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-200,관엽식물 LCtrl 스냅 정렬 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-201,관엽식물 건축물 선택으로 돌아가기 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-202,관엽식물 ESC 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-203,관엽식물 Tab 건축 중단 확인,Building/Furniture,PreviewControl,High,Manual,5
+PW-BLD-204,나무 벽걸이 장식 선반벽없음차단,Building/Furniture,WallRequired,High,Candidate,5
+PW-BLD-205,나무 벽걸이 장식 선반벽면설치가능,Building/Furniture,WallRequired,High,Candidate,5
+PW-BLD-206,간판 프리뷰,Building/Furniture,Preview,Medium,Candidate,4
+PW-BLD-207,간판 건축 입력 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-208,간판 회전 입력 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-209,간판 LCtrl 스냅 정렬 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-210,간판 건축물 선택으로 돌아가기 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-211,간판 ESC 건축 중단 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-212,간판 Tab 건축 중단 확인,Building/Misc,PreviewControl,High,Manual,5
+PW-BLD-213,기타탭프리뷰설치후시간경과완료,Building/Misc,TimedPlacement,High,Candidate,5
+PW-BLD-214,자원부족건축물선택,Building/Misc,Resource,Medium,Manual,5
+PW-BLD-215,프리뷰후ESC닫힘,Building/Common,Recover,High,Candidate,4
+PW-BLD-216,ESC후B재진입,Building/Common,Recover,High,Candidate,3
+PW-BLD-217,설치불가후목록유지,Building/Common,Recover,Medium,Candidate,4
+PW-BLD-218,건축목록스크롤,Building/Common,Scroll,Medium,Candidate,4
+PW-BLD-219,대표건축물실제설치,Building/Common,Placement,High,Candidate,4
+PW-BLD-220,실제설치후자원감소,Building/Common,Placement,Medium,Manual,3
+PW-BLD-221,오브젝트충돌설치불가,Building/Common,Collision,High,Candidate,3
+PW-BLD-222,경사면설치판정,Building/Common,Placement,Medium,Manual,3
+PW-BLD-223,물가설치판정,Building/Common,Placement,Low,Manual,3
+PW-BLD-224,설치후저장로드유지,Building/Common,SaveLoad,High,Manual,3
+PW-BLD-225,해체모드진입,Building/Mode,DismantleMode,High,Candidate,3
+PW-BLD-226,해체모드 해체 입력 확인,Building/Mode,DismantleMode,High,Candidate,4
+PW-BLD-227,해체모드 건축물 선택으로 돌아가기 확인,Building/Mode,DismantleMode,High,Candidate,4
+PW-BLD-228,해체모드 ESC 해체 중단 확인,Building/Mode,DismantleMode,High,Candidate,4
+PW-BLD-229,해체모드 Tab 해체 중단 확인,Building/Mode,DismantleMode,High,Candidate,4
