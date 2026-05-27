@@ -1,5 +1,7 @@
 # Palworld Build Mode AirTest QA
 
+현재 저장소는 자동화 구현 완료 프로젝트가 아니라, Palworld 건축모드 테스트 케이스를 기반으로 AirTest 자동화 후보를 선정하고 자동화 설계 방향을 정리한 포트폴리오입니다.
+
 ## 프로젝트 개요
 Palworld 건축모드 기능을 대상으로 테스트 케이스를 작성하고, AirTest 자동화 적용 가능성을 검토한 QA 포트폴리오입니다.
 
