@@ -18,8 +18,8 @@ from suites import SUITES
 
 
 # 실행할 묶음 선택
-# "mode", "tab", "smoke", "all" 중 선택
-RUN_TARGET = "preview"
+# "mode", "tab", "smoke", "preview", "all" 중 선택
+RUN_TARGET = "all"
 
 
 def log_case_start(case_id, case_name):

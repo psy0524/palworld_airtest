@@ -19,11 +19,7 @@ from tab_cases import (
     tc_014_click_misc_tab,
 )
 
-from preview_cases import (
-    tc_015_primitive_workbench_preview,
-    tc_020_primitive_workbench_cancel_esc,
-    tc_021_primitive_workbench_cancel_tab,
-)
+from preview_cases import PREVIEW_CASES
 
 MODE_CASES = [
     ("PW-BLD-001", "건축모드 창 열기", tc_001_open_build_mode),
@@ -43,13 +39,6 @@ TAB_CASES = [
     ("PW-BLD-012", "방어탭클릭", tc_012_click_defense_tab),
     ("PW-BLD-013", "가구탭클릭", tc_013_click_furniture_tab),
     ("PW-BLD-014", "기타탭클릭", tc_014_click_misc_tab),
-]
-
-
-PREVIEW_CASES = [
-    ("PW-BLD-015", "원시적인 작업대 프리뷰 확인", tc_015_primitive_workbench_preview),
-    ("PW-BLD-020", "원시적인 작업대 ESC 건축 중단 확인", tc_020_primitive_workbench_cancel_esc),
-    ("PW-BLD-021", "원시적인 작업대 Tab 건축 중단 확인", tc_021_primitive_workbench_cancel_tab),
 ]
 
 SMOKE_CASES = [
