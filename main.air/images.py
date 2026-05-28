@@ -150,10 +150,9 @@ IMG_REP_MISC = Template(
 # ---------------------------------------------------------
 # 건축물 아이템 이미지
 # ---------------------------------------------------------
-
 IMG_ITEM_PRIMITIVE_WORKBENCH = Template(
-    r"images/items/tpl_primitive_workbench.png",
-    record_pos=(0, 0),
+    r"images/items/tpl1779986896125.png",
+    record_pos=(-0.255, -0.102),
     resolution=(1920, 1009)
 )
 
@@ -162,7 +161,8 @@ IMG_ITEM_PRIMITIVE_WORKBENCH = Template(
 # ---------------------------------------------------------
 
 IMG_BUILD_PREVIEW_UI = Template(
-    r"images/preview/tpl_build_preview_ui.png",
-    record_pos=(0, 0),
+    r"images/preview/tpl1779986926274.png",
+    record_pos=(0.173, 0.007),
     resolution=(1920, 1009)
 )
+
