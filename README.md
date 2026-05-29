@@ -1,37 +1,202 @@
-# Palworld 건축모드 AirTest 자동화 Starter
+# Palworld Build Mode AirTest Automation
 
-이 패키지는 첨부된 테스트케이스 파일에서 `Candidate`로 분류된 케이스를 기준으로 만든 **자동화 시작용 프로젝트 구조**입니다.
+## 프로젝트 소개
 
-## 현재 구성
+본 프로젝트는 Palworld 건축 모드(Build Mode)의 주요 기능을 AirTest를 활용하여 자동화 테스트하기 위한 프로젝트입니다.
 
-- 전체 케이스: 229개
-- 자동화 후보 Candidate: 100개
-- Manual: 129개
-- Automated: 0개
+건축 모드 진입부터 탭 이동, 건축물 선택, 프리뷰 진입, 건축 취소(ESC/TAB) 동작까지 자동으로 검증할 수 있도록 설계하였습니다.
 
-## 추천 진행 순서
+---
 
-1. `docs/image_capture_checklist.csv`를 보고 필요한 기준 이미지를 캡처합니다.
-2. 캡처한 이미지를 `main.air/images/` 하위 폴더에 넣습니다.
-3. `main.air/config.py`에서 좌표와 타임아웃을 본인 환경에 맞게 수정합니다.
-4. `main.air/main.py`를 실행해 Candidate 케이스를 순차 실행합니다.
-5. 안정적으로 통과한 케이스만 엑셀의 자동화 상태를 `Automated`로 변경합니다.
+## 테스트 범위
 
-## 실행 예시
+### 건축 모드
 
-```bash
-pip install -r requirements.txt
-airtest run main.air --log logs
-airtest report main.air --log_root logs --outfile report.html
+* 건축 모드 진입
+* 건축 모드 종료
+* 건축 모드 중복 진입
+
+### 탭 이동
+
+* 생산 탭
+* 팰 탭
+* 수납 탭
+* 식료품 탭
+* 인프라 탭
+* 조명 탭
+* 건축 탭
+* 방어 탭
+* 가구 탭
+* 기타 탭
+
+### 건축물 프리뷰
+
+각 탭의 대표 건축물을 대상으로 다음 항목을 검증합니다.
+
+* 건축물 선택
+* 프리뷰 UI 표시 여부 확인
+* ESC 입력 시 건축 취소
+* TAB 입력 시 건축 취소
+
+---
+
+## 프로젝트 구조
+
+```text
+main.py
+ ├─ build_common.py
+ ├─ input_utils.py
+ ├─ config.py
+ ├─ images.py
+ ├─ mode_cases.py
+ ├─ tab_cases.py
+ ├─ preview_cases.py
+ └─ suites.py
 ```
 
-## 중요한 기준
+### build_common.py
 
-현재는 완성된 AirTest 코드가 없으므로 엑셀 상태는 `Candidate`가 맞습니다.  
-아래 조건을 만족한 케이스만 `Automated`로 올리는 것을 권장합니다.
+공통 기능 관리
 
-1. 코드 작성 완료
-2. 단독 실행 성공
-3. 전체 실행 중에도 성공
-4. 3회 이상 반복 실행 시 결과 안정
-5. 실패 시 로그/스크린샷으로 원인 확인 가능
+* 건축 모드 진입
+* 건축 모드 종료
+* 복구 로직
+* 탭 이동
+
+### input_utils.py
+
+게임 입력 제어
+
+* 키 입력
+* ESC
+* TAB
+* B
+* F
+
+### images.py
+
+AirTest Template 이미지 관리
+
+* 탭 이미지
+* 대표 건축물 이미지
+* 건축물 이미지
+* 프리뷰 UI 이미지
+
+### mode_cases.py
+
+건축 모드 관련 테스트 케이스
+
+### tab_cases.py
+
+탭 이동 관련 테스트 케이스
+
+### preview_cases.py
+
+건축물 프리뷰 관련 테스트 케이스
+
+### suites.py
+
+실행 대상 테스트 스위트 관리
+
+---
+
+## 자동화 방식
+
+### 이미지 인식 기반
+
+AirTest Template Matching을 사용하여 UI 요소를 식별합니다.
+
+검증 대상
+
+* 건축 모드 창
+* 탭
+* 대표 건축물
+* 건축물 아이콘
+* 프리뷰 UI
+
+### 상태 복구
+
+테스트 실패 시 자동 복구를 수행합니다.
+
+예시
+
+* 건축 모드가 열린 상태로 종료된 경우
+* ESC 입력 후 기본 상태 복귀
+
+---
+
+## 실행 방법
+
+### Smoke Test
+
+```python
+RUN_TARGET = "smoke"
+```
+
+### Build Mode Test
+
+```python
+RUN_TARGET = "mode"
+```
+
+### Tab Test
+
+```python
+RUN_TARGET = "tab"
+```
+
+### Preview Test
+
+```python
+RUN_TARGET = "preview"
+```
+
+### Full Test
+
+```python
+RUN_TARGET = "all"
+```
+
+---
+
+## 구현 완료 항목
+
+### Automated
+
+* 건축 모드 진입
+* 건축 모드 종료
+* 건축 모드 중복 진입
+* 전체 탭 이동
+* 건축물 프리뷰 진입
+* ESC 건축 취소
+* TAB 건축 취소
+
+### Candidate
+
+* 스크롤이 필요한 건축물 자동화
+* 화면 위치 의존성이 높은 건축물
+* 추가 프리뷰 검증
+
+### Manual
+
+* 실제 건축 배치 검증
+* 충돌 판정 검증
+* 자원 부족 검증
+* 설치 가능/불가능 조건 검증
+* 위치 제약 검증
+
+---
+
+## 사용 기술
+
+* Python
+* AirTest
+* OpenCV
+* Template Matching
+* Windows Automation
+
+---
+
+## 목적
+
+반복 수행되는 건축 모드 테스트를 자동화하여 테스트 시간을 단축하고, 회귀 테스트 수행 시 일관된 결과를 확보하는 것을 목표로 합니다.
