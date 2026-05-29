@@ -129,6 +129,8 @@ AirTest Template Matching을 사용하여 UI 요소를 식별합니다.
 
 ### Smoke Test
 
+main.py 안에 있는 RUN_TARGET변수에 태그 입력
+
 ```python
 RUN_TARGET = "smoke"
 ```
